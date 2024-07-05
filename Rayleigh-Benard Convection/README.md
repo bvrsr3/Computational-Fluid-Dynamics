@@ -11,5 +11,4 @@ occur or not. If the temperature gradient, and thus the density gradient, is lar
 forces will dominate, and instability will occur. It is the occuring flow patterns that are investigated in
 this report through numerical methods.
 
-
-    ![Picture1](https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/6d413ca5-f6c5-4ebc-9252-3340387b3bb9)
+ ![Picture1](https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/6d413ca5-f6c5-4ebc-9252-3340387b3bb9)
