@@ -1,0 +1,70 @@
+function [aTp, aTE, aTW, aTN, aTS, bT] = get_E_coeffs_new(nx,ny,u,v,dxe,dye,dxc,dyc,dt,T)
+dx=1/(nx-1);
+dy=1/(ny-1);
+
+  aTp = zeros(nx,ny);
+  aTE = zeros(nx,ny);  aTW = zeros(nx,ny);
+  aTN = zeros(nx,ny);  aTS = zeros(nx,ny);
+  bT  = zeros(nx,ny);
+
+Fw = zeros(size(T)); Fe = zeros(size(T)); Fn = zeros(size(T)); Fs = zeros(size(T));
+Dw = zeros(size(T)); De = zeros(size(T)); Dn = zeros(size(T)); Ds = zeros(size(T));
+%Sp = zeros(size(u)); Su = zeros(size(u));
+bT  = zeros(size(T));
+
+  zo = zeros(size(T));
+
+  for i=2:nx-1
+      for j=2:ny-1
+
+          Fw(i,j)=u(i,j)*dy;
+          Fe(i,j)=u(i+1,j)*dy;
+          Fn(i,j)=v(i,j+1)*dx;
+          Fs(i,j)=v(i,j)*dx;
+
+          De(i,j)=dy/dx;
+          Dw(i,j)=dy/dx;
+          Ds(i,j)=dx/dy;
+          Dn(i,j)=dx/dy;
+
+      end
+  end
+
+
+for i=2:nx-1
+      for j=2:ny-1
+
+  advec_scheme = 1;
+if(advec_scheme==1) % upwind scheme
+   
+  aTE(i,j) = De(i,j) + max(zo(i,j), -Fe(i,j));  aTN(i,j) = Dn(i,j) + max(zo(i,j), -Fn(i,j)); 
+  aTW(i,j) = Dw(i,j) + max(Fw(i,j),  zo(i,j));  aTS(i,j) = Ds(i,j) + max(Fs(i,j),  zo(i,j));  
+elseif(advec_scheme==2) % C-D scheme
+  aTE(i,j) = De(i,j) - 0.5*Fe(i,j);  aTN(i,j) = Dn(i,j) - 0.5*Fn(i,j);  
+  aTW(i,j) = Dw(i,j) + 0.5*Fw(i,j);  aTS(i,j) = Ds(i,j) + 0.5*Fs(i,j);  
+elseif(advec_scheme==3) % PowerLaw scheme
+  aTE(i,j) = De(i,j) .* max(0, (1-0.1*abs(Fe(i,j)./De(i,j))).^5) + max(0, -Fe(i,j));
+  aTW(i,j) = Dw(i,j) .* max(0, (1-0.1*abs(Fw(i,j)./Dw(i,j))).^5) + max(0,  Fw(i,j));
+  aTN(i,j) = Dn(i,j) .* max(0, (1-0.1*abs(Fn(i,j)./Dn(i,j))).^5) + max(0, -Fn(i,j));
+  aTS(i,j) = Ds(i,j) .* max(0, (1-0.1*abs(Fs(i,j)./Ds(i,j))).^5) + max(0, -Fs(i,j));
+end
+
+bT(i,j) = 0.0; 
+
+  aTp(i,j) = -(aTE(i,j) + aTW(i,j) + aTN(i,j) + aTS(i,j)) - (Fe(i,j)-Fw(i,j)+Fn(i,j)-Fs(i,j));
+
+      end
+end
+
+
+end
+
+
+
+
+
+
+
+
+
+
