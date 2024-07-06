@@ -24,11 +24,11 @@ The SIMPLE algorithm is shown below [1]:
 
 ## Results:
 
-<div align = "center">
+<div align = "left">
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/ba20fc54-4f89-4b5d-a0ee-a0a805ccc468" height = "300" width = "300">
 </div>
 
-<div align = "center">
+<div align = "right">
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/67bc0f97-e486-4b24-a4a2-261ddcb1c676" height = "300" width = "300">
 </div>
 
