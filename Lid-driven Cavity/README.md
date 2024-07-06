@@ -4,7 +4,7 @@ The Lid-driven cavity is one of the standard validation test cases for incompres
 ## Governing equations:
 The governing equations for this problem are the laminar, incompressible Navier-Stokes equations [1]. 
 
-\[\frac{\partial}{\partial x}(\rho uu) + \frac{\partial}{\partial y}(\rho vu) = \frac{\partial}{\partial x}\left(\mu \frac{\partial u}{\partial x} \right) + \frac{\partial}{\partial y}\left(\mu \frac{\partial u}{\partial y} \right) - \frac{\partial p}{\partial x} + S_u\] 
+$\frac{\partial}{\partial x}(\rho uu) + \frac{\partial}{\partial y}(\rho vu) = \frac{\partial}{\partial x}\left(\mu \frac{\partial u}{\partial x} \right) + \frac{\partial}{\partial y}\left(\mu \frac{\partial u}{\partial y} \right) - \frac{\partial p}{\partial x} + S_u$
 
 <div align = "center">
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/4bb002b8-b8ec-41ff-a1aa-42cc23fd5edb">
