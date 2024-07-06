@@ -23,9 +23,17 @@ The SIMPLE algorithm is shown below [1]:
 </div>
 
 ## Results:
+### Validation
 <div align = "center">
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/ba20fc54-4f89-4b5d-a0ee-a0a805ccc468" height = "300" width = "300">    <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/67bc0f97-e486-4b24-a4a2-261ddcb1c676" height = "300" width = "300">
 </div>
+
+### Contours
+<div align = "center">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/a4fab3c0-c163-45c7-b0b4-67595a1c960c" height = "300" width = "300">  <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/b9cc586b-c7a0-4b69-8766-e6545fbcbb8b" height = "300" width = "300">  <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/3a58092e-750d-4a9a-a941-cbeb07ca32e4">
+</div>
+
+
 
 ### References:
 [1] Versteeg, H. K. "Malalasekera: An Introduction to Computational Fluid Dynamics." Harlow, Essex, England: New York (1995).
