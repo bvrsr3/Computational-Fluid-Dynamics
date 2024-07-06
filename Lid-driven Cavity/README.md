@@ -30,7 +30,7 @@ The SIMPLE algorithm is shown below [1]:
 
 ### Contours
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/a4fab3c0-c163-45c7-b0b4-67595a1c960c" height = "300" width = "300">  <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/b9cc586b-c7a0-4b69-8766-e6545fbcbb8b" height = "300" width = "300">  <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/3a58092e-750d-4a9a-a941-cbeb07ca32e4">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/a4fab3c0-c163-45c7-b0b4-67595a1c960c" height = "300" width = "300">  <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/b9cc586b-c7a0-4b69-8766-e6545fbcbb8b" height = "300" width = "300">  <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/3a58092e-750d-4a9a-a941-cbeb07ca32e4" height = "300" width = "300">
 </div>
 
 
