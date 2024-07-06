@@ -1,8 +1,8 @@
 # Problem statement:
-The Lid-driven cavity is one of the standard validation test cases for incompressible flow solvers. The Lid-Driven cavity problem has been solved numerically for Reynolds number 100. The code has been written in C language. The experimental data has been obtained from Gaia 1982. The code follows a Finite Volume Framework (FVM). SIMPLE algorithm is used for the solution. The fluxes at the face are reconstructed using Rhie-Chow interpolation. 
+The Lid-driven cavity is one of the standard validation test cases for incompressible flow solvers. The Lid-Driven cavity problem has been solved numerically for Reynolds number 100. The code has been written in C language. The experimental data has been obtained from Gaia 1982. The code follows a Finite Volume Framework (FVM). The SIMPLE algorithm is used for the solution. The fluxes at the face are reconstructed using Rhie-Chow interpolation. 
 
 ## Governing equations:
-The governing equations for this problem are the laminar, incompressible Navier-Stokes equations. 
+The governing equations for this problem are the steady, laminar, incompressible Navier-Stokes equations. 
 
 <p align = "center">
 $\frac{\partial}{\partial x}(\rho uu) + \frac{\partial}{\partial y}(\rho vu) = \frac{\partial}{\partial x}\left(\mu \frac{\partial u}{\partial x} \right) + \frac{\partial}{\partial y}\left(\mu \frac{\partial u}{\partial y} \right) - \frac{\partial p}{\partial x} + S_u$
