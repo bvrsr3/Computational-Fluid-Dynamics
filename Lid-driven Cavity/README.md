@@ -2,13 +2,19 @@
 The Lid-driven cavity is one of the standard validation test cases for incompressible flow solvers. The Lid-Driven cavity problem has been solved numerically for Reynolds number 100. The code has been written in C language. The experimental data has been obtained from Gaia 1982. The code follows a Finite Volume Framework (FVM). SIMPLE algorithm is used for the solution. The fluxes at the face are reconstructed using Rhie-Chow interpolation. 
 
 ## Governing equations:
-The governing equations for this problem are the laminar, incompressible Navier-Stokes equations [1]. 
+The governing equations for this problem are the laminar, incompressible Navier-Stokes equations. 
 
+<p align = "center">
 $\frac{\partial}{\partial x}(\rho uu) + \frac{\partial}{\partial y}(\rho vu) = \frac{\partial}{\partial x}\left(\mu \frac{\partial u}{\partial x} \right) + \frac{\partial}{\partial y}\left(\mu \frac{\partial u}{\partial y} \right) - \frac{\partial p}{\partial x} + S_u$
+</p>
 
-<div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/4bb002b8-b8ec-41ff-a1aa-42cc23fd5edb">
-</div>
+<p align = "center">
+$\frac{\partial}{\partial x}(\rho uv) + \frac{\partial}{\partial y}(\rho vv) = \frac{\partial}{\partial x}\left(\mu \frac{\partial v}{\partial x} \right) + \frac{\partial}{\partial y}\left(\mu \frac{\partial v}{\partial y} \right) - \frac{\partial p}{\partial y} + S_v$
+</p>
+
+<p align = "center">
+$\frac{\partial}{\partial x}(\rho u) + \frac{\partial}{\partial y}(\rho v) = 0$
+</p>
 
 ## SIMPLE Algorithm:
 The SIMPLE algorithm is shown below [1]:
