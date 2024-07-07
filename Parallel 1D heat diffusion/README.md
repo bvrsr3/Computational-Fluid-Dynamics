@@ -1,3 +1,8 @@
+# Parallelized - 1D Heat diffusion equation 
+
+## Governing equation:
+$\frac{\partial T}{\partial t} = \kappa \frac{\partial ^2 T}{\partial x^2}$
+                                                       
                                                        L2 norm:
 
 The L2 norm between serial and parallel code at the 100th time step is 0.0 up to the 15th digit place. Shown below is a snippet of the same.
