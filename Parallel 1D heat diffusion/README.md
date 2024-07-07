@@ -29,7 +29,7 @@ The processor topology for the parallel code is shown below:
 </div>
 
 The following are the main considerations for writing the parallel code:
-1. Proc0 inputs and broadcasting to other processors
+1. Proc0 receives inputs from the "input file" and broadcasts to other processors
 2. Generating global grid and local grid for each processor
 3. Enforcing BCs for each processor
 4. Display local output
@@ -38,9 +38,7 @@ The following are the main considerations for writing the parallel code:
 7. Update the equation in each processor
 8. Reconstruct all local processor data to proc0 
 
-
-
-                                                       
+## Results and Discussion:                                                
                                                        L2 norm:
 
 The L2 norm between serial and parallel code at the 100th time step is 0.0 up to the 15th digit place. Shown below is a snippet of the same.
