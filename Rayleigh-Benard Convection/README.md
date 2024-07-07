@@ -5,5 +5,5 @@ parallel plates, and the lower plate is maintained at a higher temperature. The 
 
 ## Governing equations:
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/7b4395ad-a990-4996-b145-ce9af7677788" width = "400" height = "400">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/7b4395ad-a990-4996-b145-ce9af7677788" width = "600" height = "400">
 </div>
