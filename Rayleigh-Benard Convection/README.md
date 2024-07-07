@@ -20,3 +20,6 @@ A predictor-corrector approach is used to solve the governing equations. The flo
 <div align = "center">
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/68be7cc8-ebd9-4d91-b804-1ab887d91dde" width = "450" height = "600">
 </div>
+
+## Results and Discussion:
+The Rayleigh number is increased from 10 to 10,000. At Ra = 10, the temperature difference is not sufficient to overcome the viscous forces and induce motion in the fluid. At Ra = 10,000, a convection roll gets established.
