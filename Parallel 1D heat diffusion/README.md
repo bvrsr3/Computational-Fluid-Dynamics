@@ -1,7 +1,18 @@
 # Parallelized - 1D Heat diffusion equation 
 
 ## Governing equation:
+<p align = "center">
 $\frac{\partial T}{\partial t} = \kappa \frac{\partial ^2 T}{\partial x^2}$
+</p>
+where $\kappa$ is the thermal conductivity (W/mK)
+
+# Serial code
+The governing equation is discretized in space and time. A central Difference scheme ($2^{nd}$ order) is used for space, and the Euler time step ($1^{st}$ order) is used in time. The resulting equation shown below is explicitly updated in time. 
+<div align = "center">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/7f47be4d-be63-4eb0-a48f-3d0a9bcf4bf3" width = "300" height = "150">
+</div>
+
+
                                                        
                                                        L2 norm:
 
