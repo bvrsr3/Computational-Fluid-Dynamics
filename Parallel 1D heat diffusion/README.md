@@ -38,13 +38,12 @@ The following are the main considerations for writing the parallel code:
 7. Update the equation in each processor
 8. Reconstruct all local processor data to proc0 
 
-## Results and Discussion:                                                
-                                                       L2 norm:
-
-The L2 norm between serial and parallel code at the 100th time step is 0.0 up to the 15th digit place. Shown below is a snippet of the same.
-
-![image](https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/e643e077-a014-40c5-8a21-d844589341e6)
-![image](https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/41b9ac57-f555-471a-b21d-e50f454d4c22)
+## Results and Discussion: 
+### Validation of the parallel code:
+L2 norm: The L2 norm between serial and parallel code at the 100th time step is 0.0 up to the 15th digit place. Shown below is a snippet of the same.
+<div align = "center">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/41b9ac57-f555-471a-b21d-e50f454d4c22" width = "500" height = "500">
+</div>
 
 
                                                       Weak scaling:
