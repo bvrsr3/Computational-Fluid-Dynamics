@@ -28,3 +28,9 @@ The following figures describe the contours for a 50 X 50 grid, $Ra$ = 10, $Pr$ 
 <div align = "center">
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/09d47fa1-7f62-4381-b7f8-4627812fd8f6" width = "450" height = "200">  <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/354890e9-e265-42ae-8ad4-f6e60d022cfc" width = "450" height = "200">
 </div>
+
+The following figures describe the contours for a 50 X 50 grid, $Ra$ = 10,000, $Pr$ = 0.71
+<div align = "center">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/11f15254-fa56-4087-a162-6c6d8eddf54e" width = "450" height = "200">  <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/50604856-1e68-48f5-a2c3-76362f841d09" width = "450" height = "200">
+</div>
+
