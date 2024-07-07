@@ -8,7 +8,7 @@ $\frac{\partial T}{\partial t} = \kappa \frac{\partial ^2 T}{\partial x^2}$
 where $\kappa $ is the thermal conductivity (W/mK)
 
 A Dirchilet boundary condition is used at the boundaries.
-For short times, an analytical solution exists given by $T(x,t) = erf(\frac{x - 0.5}{2\sqrt(t)}) $ in this way, the numerical methodology can be validated.
+For short times, an analytical solution exists given by $T(x,t) = erf(\frac{x - 0.5}{2\sqrt(t)})$ in this way, the numerical methodology can be validated.
 
 ## Serial code
 The governing equation is discretized in space and time. A central Difference scheme ($2^{nd}$ order) is used for space, and the Euler time step ($1^{st}$ order) is used in time. The resulting equation shown below is explicitly updated in time. 
