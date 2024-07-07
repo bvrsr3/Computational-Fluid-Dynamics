@@ -26,5 +26,5 @@ The working fluid is air (Prandtl number, $Pr$ = 0.71). The Rayleigh number $(Ra
 
 The following figures describe the contours for a 50 X 50 grid, $Ra$ = 10, $Pr$ = 0.71
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/09d47fa1-7f62-4381-b7f8-4627812fd8f6"> <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/354890e9-e265-42ae-8ad4-f6e60d022cfc">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/09d47fa1-7f62-4381-b7f8-4627812fd8f6" width = "400" height = "200"> <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/354890e9-e265-42ae-8ad4-f6e60d022cfc" width = "400" height = "200">
 </div>
