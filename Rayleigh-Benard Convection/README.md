@@ -22,4 +22,9 @@ A predictor-corrector approach is used to solve the governing equations. The flo
 </div>
 
 ## Results and Discussion:
-The Rayleigh number is increased from 10 to 10,000. At Ra = 10, the temperature difference is not sufficient to overcome the viscous forces and induce motion in the fluid. At Ra = 10,000, a convection roll gets established.
+The working fluid is air (Prandtl number, $Pr$ = 0.71). The Rayleigh number $(Ra)$ is increased from 10 to 10,000. At $Ra$ = 10, the temperature difference is not sufficient to overcome the viscous forces and induce motion in the fluid. At $Ra$ = 10,000, a convection roll gets established.
+
+The following figures describe the contours for a 50 X 50 grid, $Ra$ = 10, $Pr$ = 0.71
+<div align = "center">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/09d47fa1-7f62-4381-b7f8-4627812fd8f6"> <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/354890e9-e265-42ae-8ad4-f6e60d022cfc">
+</div>
