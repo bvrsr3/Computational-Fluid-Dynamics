@@ -12,6 +12,10 @@ The governing equation is discretized in space and time. A central Difference sc
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/7f47be4d-be63-4eb0-a48f-3d0a9bcf4bf3" width = "500" height = "50">
 </div>
 
+<div align = "center">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/fb468502-d8e8-43d3-8de5-0bc265c1f28b" width = "500" height = "50">
+</div>
+
 
                                                        
                                                        L2 norm:
