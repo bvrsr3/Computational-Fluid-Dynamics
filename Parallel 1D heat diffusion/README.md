@@ -5,7 +5,7 @@ Following is the 1D Heat conduction equation. In this work, the equation is solv
 <p align = "center">
 $\frac{\partial T}{\partial t} = \kappa \frac{\partial ^2 T}{\partial x^2}$
 </p>
-where $\kappa $ is the thermal conductivity (W/mK)
+where $\kappa$ is the thermal conductivity (W/mK)
 
 A Dirchilet boundary condition is used at the boundaries.
 For short times, an analytical solution exists given by $T(x,t) = erf(\frac{x - 0.5}{2\sqrt(t)})$ in this way, the numerical methodology can be validated.
