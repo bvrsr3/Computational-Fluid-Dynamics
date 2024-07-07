@@ -24,7 +24,8 @@ A figure depicting the node topology is shown below.
 ## Parallel code and methodology:
 The processor topology for the parallel code is shown below:
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/9bc44599-9ee7-4359-b0bc-aa84a4718311">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/9bc44599-9ee7-4359-b0bc-aa84a4718311" width = "700" height = "200">
+</div>
 </div>
 
 The following are the main considerations for writing the parallel code:
