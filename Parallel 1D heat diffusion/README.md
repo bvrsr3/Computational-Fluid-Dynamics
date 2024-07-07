@@ -14,7 +14,7 @@ The governing equation is discretized in space and time. A central Difference sc
 
 
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/fb468502-d8e8-43d3-8de5-0bc265c1f28b" width = "500" height = "100">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/fb468502-d8e8-43d3-8de5-0bc265c1f28b" width = "600" height = "100">
 </div>
 
 
