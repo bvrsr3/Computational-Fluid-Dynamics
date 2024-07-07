@@ -12,11 +12,11 @@ The Navier-Stokes, along with the energy equation, governs this problem.
 ## Boundary conditions:
 The geometry and its boundary conditions are shown in the figure below:
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/63ad9efd-3c25-4b18-9fcd-6c73fed52751">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/805d9dac-be8e-455b-8ac6-be2aee78478d" width = "350" height = "350">
 </div>
 
 ## Numerical Methodology:
 A predictor-corrector approach is used to solve the governing equations. The flowchart of the methodology followed is shown below:
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/68be7cc8-ebd9-4d91-b804-1ab887d91dde">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/68be7cc8-ebd9-4d91-b804-1ab887d91dde" width = "400" height = "600">
 </div>
