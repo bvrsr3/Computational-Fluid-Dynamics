@@ -18,5 +18,5 @@ The geometry and its boundary conditions are shown in the figure below:
 ## Numerical Methodology:
 A predictor-corrector approach is used to solve the governing equations. The flowchart of the methodology followed is shown below:
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/68be7cc8-ebd9-4d91-b804-1ab887d91dde" width = "400" height = "600">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/68be7cc8-ebd9-4d91-b804-1ab887d91dde" width = "450" height = "600">
 </div>
