@@ -54,7 +54,7 @@ L2 norm: The L2 norm between serial and parallel code at the 100th time step is 
 ### Strong and Weak scaling:
 Strong scaling is defined as 'Speedup as a function of processor number with fixed problem size'. Weak scaling is defined as 'Speedup as a function of processor number with problem size increasing proportionally to increase in processors'.
                                                   
-
+#### Weak scaling:
 <div align = "center">                                             
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/b134f9fb-8dec-49c7-a364-a4af841e1e06" width = "300" height = "250">
 </div>
