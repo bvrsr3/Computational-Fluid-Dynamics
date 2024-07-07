@@ -21,7 +21,7 @@ A predictor-corrector approach is used to solve the governing equations. The flo
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/68be7cc8-ebd9-4d91-b804-1ab887d91dde" width = "450" height = "600">
 </div>
 
-## Results and Discussion:
+## Results:
 The working fluid is air (Prandtl number, $Pr$ = 0.71). The Rayleigh number $(Ra)$ is increased from 10 to 10,000. At $Ra$ = 10, the temperature difference is not sufficient to overcome the viscous forces and induce motion in the fluid. At $Ra$ = 10,000, a convection roll gets established.
 
 The following figures describe the contours for a 50 X 50 grid, $Ra$ = 10, $Pr$ = 0.71
@@ -34,10 +34,8 @@ The following figures describe the contours for a 50 X 50 grid, $Ra$ = 10,000, $
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/11f15254-fa56-4087-a162-6c6d8eddf54e" width = "450" height = "200">  <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/50604856-1e68-48f5-a2c3-76362f841d09" width = "450" height = "200">
 </div>
 
-![image](https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/1075f3e0-4db6-4458-af4f-0eb3fd33a097)
-
-
+## Discussion:
 1. It is observed that there exists a critical Rayleigh number below which conduction heat transfer is dominant over convective heat transfer.
 2. Beyond the critical Rayleigh number convective mode of heat transfer is dominant. A clockwise convection current is due to numerical directionality.
-3. The bands of the temperature contour represent Isotherms. For increased Rayleigh number these isotherms indicate strong convective nature of the flow, which further promotes mixing, as observed.
+3. The bands of the temperature contour represent Isotherms. For increased Rayleigh number, these isotherms indicate a strong convective nature of the flow, which further promotes mixing, as observed.
 
