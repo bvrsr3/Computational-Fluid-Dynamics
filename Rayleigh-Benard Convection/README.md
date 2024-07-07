@@ -12,7 +12,7 @@ The Navier-Stokes, along with the energy equation, governs this problem.
 ## Boundary conditions:
 The geometry and its boundary conditions are shown in the figure below:
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/805d9dac-be8e-455b-8ac6-be2aee78478d" width = "350" height = "350">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/805d9dac-be8e-455b-8ac6-be2aee78478d" width = "450" height = "350">
 </div>
 
 ## Numerical Methodology:
