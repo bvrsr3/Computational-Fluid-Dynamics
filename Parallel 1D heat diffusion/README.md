@@ -40,13 +40,15 @@ The following are the main considerations for writing the parallel code:
 
 ## Results and Discussion: 
 ### Validation of the parallel code:
-L2 norm: The L2 norm between serial and parallel code at the 100th time step is 0.0 up to the 15th digit place. Shown below is a snippet of the same. Hence, the parallel code is now validated.
+L2 norm: The L2 norm between serial and parallel code at the 100th time step is 0.0 up to the 15th digit place. Shown below is a snippet of the same for a few $x$ values. Hence, the parallel code is now validated.
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/41b9ac57-f555-471a-b21d-e50f454d4c22" width = "500" height = "150">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/41b9ac57-f555-471a-b21d-e50f454d4c22" width = "500" height = "125">
 </div>
 
-
-                                                      Weak scaling:
+### Strong and Weak scaling:
+Strong scaling is defined as 'Speedup as a function of processor number with fixed problem size'. Weak scaling is defined as 'Speedup as a function of processor number with problem size increasing proportionally to increase in processors'.
+                                                  
+#### Weak scaling:
                                                       
  ![image](https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/b134f9fb-8dec-49c7-a364-a4af841e1e06)
 
