@@ -51,7 +51,7 @@ Strong scaling is defined as 'Speedup as a function of processor number with fix
                                                   
 
 <div align = "center">                                             
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/b134f9fb-8dec-49c7-a364-a4af841e1e06" width = "300" height = "300">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/b134f9fb-8dec-49c7-a364-a4af841e1e06" width = "300" height = "250">
 </div>
 
 Comments:
@@ -60,7 +60,7 @@ The above is similar to the concept of weak scaling. The number of processors is
  
 #### Strong scaling:
 <div align = "center">                                             
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/395d4190-1752-4774-bdbc-db503193613e" width = "300" height = "300">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/395d4190-1752-4774-bdbc-db503193613e" width = "300" height = "250">
 </div>
 
 Comments:
