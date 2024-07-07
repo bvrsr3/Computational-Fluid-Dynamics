@@ -29,14 +29,15 @@ The processor topology for the parallel code is shown below:
 </div>
 
 The following are the main considerations for writing the parallel code:
-1. Proc0 receives inputs from the "input file" and broadcasts to other processors
-2. Generating global grid and local grid for each processor
+1. Proc0 receives inputs from the "input file" and broadcasts to other processors 
+2. Generating global grid and local grid for each processor and their mapping
 3. Enforcing BCs for each processor
 4. Display local output
 5. Debugging information of each processor
-6. Halo exchange of information at processor boundaries
-7. Update the equation in each processor
-8. Reconstruct all local processor data to proc0 
+6. Halo exchange of information at processor boundaries (communication)
+7. Timestepping and update the equation in each processor
+8. Reconstruct all data on local processors to proc0
+9. View and validate with analytical solution
 
 ## Results and Discussion: 
 ### Validation of the parallel code:
