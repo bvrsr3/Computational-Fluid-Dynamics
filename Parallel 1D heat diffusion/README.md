@@ -1,6 +1,7 @@
 # Parallelized - 1D Heat diffusion equation 
 
 ## Governing equation:
+Following is the 1D Heat conduction equation. In this work, the equation is solved numerically using a serial code and parallel code using MPI.
 <p align = "center">
 $\frac{\partial T}{\partial t} = \kappa \frac{\partial ^2 T}{\partial x^2}$
 </p>
