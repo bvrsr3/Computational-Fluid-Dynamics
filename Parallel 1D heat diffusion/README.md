@@ -42,7 +42,7 @@ The following are the main considerations for writing the parallel code:
 ### Validation of the parallel code:
 L2 norm: The L2 norm between serial and parallel code at the 100th time step is 0.0 up to the 15th digit place. Shown below is a snippet of the same.
 <div align = "center">
-<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/41b9ac57-f555-471a-b21d-e50f454d4c22" width = "800" height = "300">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/41b9ac57-f555-471a-b21d-e50f454d4c22" width = "600" height = "200">
 </div>
 
 
