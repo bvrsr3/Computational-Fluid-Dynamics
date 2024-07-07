@@ -21,6 +21,11 @@ A figure depicting the node topology is shown below.
 <img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/fb468502-d8e8-43d3-8de5-0bc265c1f28b" width = "600" height = "100">
 </div>
 
+### Validation with analytical solution:
+<div align = "center">
+<img src = "https://github.com/bvrsr3/Computational-Fluid-Dynamics/assets/137035712/ed148906-fca9-4d59-b746-78b1025c916e" height = "300" width = "300">
+</div>
+
 ## Parallel code and methodology:
 The processor topology for the parallel code is shown below:
 <div align = "center">
